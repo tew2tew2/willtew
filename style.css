@@ -9,16 +9,14 @@
 		h2 {
 			text-align: center;
 		}
-		footer {
-			text-align: center;
-			margin-top: 4em;
-			font-size: 0.9em;
-		}
 		a.homedivs:hover {
 			background: red;
 		}
 		a.downloadlinks {
 			text-decoration: underline;
+		}
+		tr {
+			padding: 10px;
 		}
 		.row {
 			display: flex;
@@ -37,6 +35,8 @@
 		}
 		.itembox {
 			flex: 1;
+			/*border: solid;
+			border-radius: 1em;*/
 			padding: 8em;
 			margin-top: 7em;
 			margin-right: 2em;
@@ -53,10 +53,10 @@
 			margin-bottom: 7em;
 			margin-top: -8em;
 		}
-		#degree {
+		.degree {
 			font-style: italic;
 		}
-		#heading {
+		.heading {
 			font-weight:bold;
 		}
 		.writingbox1 {
@@ -80,4 +80,9 @@
 			padding: 8em;
 			margin-top: 9em;
 			margin-bottom: 7em;
+		}
+		#footer {
+			text-align: center;
+			margin-top: 4em;
+			font-size: 0.9em;
 		}
