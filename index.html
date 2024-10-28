@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>William Tew | Home</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
+
+	<style>
+		body {
+			background-color: #fdf6f0;
+			font-family: Inter;
+		}
+		a {
+			text-decoration: none;
+			color: black;
+		}
+		.row {
+			display: flex;
+			flex-basis: auto;
+			flex-flow: wrap;
+			justify-content: space-around;
+			justify-content: space-between;
+			justify-content: space-evenly;
+		}
+		.homebutton {
+			width: 100vw;
+			height: auto;
+			float: left;
+			margin-left: 2em;
+		}
+		/*.resumebox {
+			width: 33vw;
+			height: auto;
+			float: left;
+			border: solid;
+			border-radius: 1em;
+		}
+		.writingbox {
+			width: 33vw;
+			height: auto;
+			float: left;
+			border: solid;
+			border-radius: 1em;
+		}
+		.contactbox {
+			width: 33vw;
+			height: auto;
+			float: right;
+			border: solid;
+			border-radius: 1em;
+		}*/
+		h2 {
+			text-align: center;
+		}
+		a.homedivs:hover {
+			background: red;
+		}
+		footer {
+			text-align: center;
+			margin-top: 4em;
+			font-size: 0.9em;
+		}
+		.homebutton {
+			margin-left: 3em;
+			margin-bottom: 5em;
+		}
+		.itembox {
+			flex: 1;
+			/*border: solid;
+			border-radius: 1em;*/
+			padding: 8em;
+			margin-top: 7em;
+			margin-right: 2em;
+			margin-left: 2em;
+			margin-bottom: 7em;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+				<div class="homebutton">
+					<h1>William Tew</h1>
+				</div>
+			<a class="homedivs" href="experience.html" target="_blank">
+				<div class="itembox">
+					<h2>Resume</h2>
+				</div>
+			</a>
+			<a class= "homedivs" href="writing.html" target="_blank">
+				<div class="itembox">
+					<h2>Writing</h2>
+				</div>
+			</a>
+			<a class="homedivs" href="contact.html" target="_blank">
+				<div class="itembox">
+					<h2>Contact</h2>
+				</div>
+			</a>
+		</div>
+	</div>
+	<footer>
+            <p>© Copyright William Tew, 2024</p>
+    </footer>
+</body>
+</html>
