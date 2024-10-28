@@ -32,13 +32,11 @@
 			width: 100vw;
 			height: auto;
 			float: left;
-			margin-left: 2em;
+			margin-left: 3em;
 			margin-bottom: 5em;
 		}
 		.itembox {
 			flex: 1;
-			/*border: solid;
-			border-radius: 1em;*/
 			padding: 8em;
 			margin-top: 7em;
 			margin-right: 2em;
